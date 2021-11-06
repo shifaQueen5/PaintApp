@@ -19,7 +19,7 @@ if(screen_width<992){
 canvas.addEventListener("mousedown", my_mousedown);
 function my_mousedown(e){
     color = document.getElementById("color").value;
-    width_of_line - document.getElementById("width_of_line").value;
+    width_of_line = document.getElementById("width_of_line").value;
     mouseEvent = "mousedown";
 }
 
